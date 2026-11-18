@@ -1,0 +1,8 @@
+✔ [3097/3104] Built PeraVerification.KernelWitness (12s)
+✔ [3098/3104] Built PeraVerification.ScalarBound (17s)
+✔ [3099/3104] Built PeraVerification.Counterexample (4.2s)
+✔ [3100/3104] Built PeraVerification.TargetProperties (4.0s)
+✔ [3101/3104] Built PeraVerification.Usefulness (4.0s)
+✔ [3102/3104] Built PeraVerification.LoRAComparison (4.4s)
+✔ [3103/3104] Built PeraVerification (3.2s)
+Build completed successfully (3104 jobs).

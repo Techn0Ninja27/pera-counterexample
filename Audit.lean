@@ -1,0 +1,25 @@
+import PeraVerification
+
+#print axioms PeraVerification.pera_error_sq_lower_bound
+#print axioms PeraVerification.pera_error_lower_bound
+#print axioms PeraVerification.optimal_error_lower_bound
+#print axioms PeraVerification.optimal_error_positive
+#print axioms PeraVerification.not_zero_optimal_error
+#print axioms PeraVerification.target_not_representable
+#print axioms PeraVerification.target_transpose
+#print axioms PeraVerification.target_mul_self
+#print axioms PeraVerification.target_rank
+#print axioms PeraVerification.explicit_pera_witness
+#print axioms PeraVerification.rank_two_counterexample
+#print axioms PeraVerification.rank_two_approximation_claim_false
+#print axioms PeraVerification.fixed_pera_operator_norm_le
+#print axioms PeraVerification.fixed_pera_operator_norm_lt_one
+#print axioms PeraVerification.optimal_error_upper_bound
+#print axioms PeraVerification.certified_error_interval
+#print axioms PeraVerification.lora_rank_one_error_lower_bound
+#print axioms PeraVerification.fixed_pera_beats_rank_one_lora
+
+#print PeraVerification.pera_error_lower_bound
+#print PeraVerification.rank_two_counterexample
+#print PeraVerification.certified_error_interval
+#print PeraVerification.fixed_pera_beats_rank_one_lora

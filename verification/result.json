@@ -1,0 +1,149 @@
+{
+  "schema": "pera-lean-verification.v1",
+  "date_utc": "2026-11-18T11:55:59.733007+00:00",
+  "status": "verified",
+  "command_exit_codes": {
+    "build": 0,
+    "axioms": 0,
+    "version": 0
+  },
+  "theorem_axioms": {
+    "PeraVerification.pera_error_sq_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.pera_error_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.optimal_error_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.optimal_error_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.not_zero_optimal_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.target_not_representable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.target_transpose": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.target_mul_self": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.target_rank": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.explicit_pera_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.rank_two_counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.rank_two_approximation_claim_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.fixed_pera_operator_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.fixed_pera_operator_norm_lt_one": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.optimal_error_upper_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.certified_error_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.lora_rank_one_error_lower_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PeraVerification.fixed_pera_beats_rank_one_lora": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "expected_theorems": [
+    "PeraVerification.pera_error_sq_lower_bound",
+    "PeraVerification.pera_error_lower_bound",
+    "PeraVerification.optimal_error_lower_bound",
+    "PeraVerification.optimal_error_positive",
+    "PeraVerification.not_zero_optimal_error",
+    "PeraVerification.target_not_representable",
+    "PeraVerification.target_transpose",
+    "PeraVerification.target_mul_self",
+    "PeraVerification.target_rank",
+    "PeraVerification.explicit_pera_witness",
+    "PeraVerification.rank_two_counterexample",
+    "PeraVerification.rank_two_approximation_claim_false",
+    "PeraVerification.fixed_pera_operator_norm_le",
+    "PeraVerification.fixed_pera_operator_norm_lt_one",
+    "PeraVerification.optimal_error_upper_bound",
+    "PeraVerification.certified_error_interval",
+    "PeraVerification.lora_rank_one_error_lower_bound",
+    "PeraVerification.fixed_pera_beats_rank_one_lora"
+  ],
+  "allowed_standard_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "source_sha256": {
+    "PeraVerification.lean": "eddc8107dc96b4c509042d7613de2c08af80b8645316f391193fd88b52c6b392",
+    "Audit.lean": "df42e8a0a02602a6f26c7126567791209e062a70d29bb31a1ef322fe6abfded4",
+    "PeraVerification/Counterexample.lean": "e339841d0f013bbb4ef412decb872ae8fdaee1b2cc731c07dcacc68a207ac076",
+    "PeraVerification/KernelWitness.lean": "93b9e7c90c5bc3425da1950bea29d464e99e80d42261f6e0ca9818a226950401",
+    "PeraVerification/LoRAComparison.lean": "2962e069fa98bae8cde3996d0ea60e0f7a9b0f5981baf26a3fcb5d96685ced87",
+    "PeraVerification/ScalarBound.lean": "a80201ab8eda9ccfee62c3c36a038d4267e742d0b6f16514bbd4874a990a3a2b",
+    "PeraVerification/TargetProperties.lean": "6a61412aac2841a109d8e42c23a827835abc9222fdb1a3b67fd8fbf9d5eea27f",
+    "PeraVerification/Usefulness.lean": "46ef72255dd9b9169428ee4bc87d77b67c55ead010411e035fe15111c177775c"
+  },
+  "toolchain": "leanprover/lean4:v4.24.0",
+  "manifest_sha256": "69ae44c1bc32d1bdb7ea5cddece927ad263d768a3e6225f7241be25a0c02c8a5",
+  "lakefile_sha256": "030bae1b10f3a0546dca144fba6adb65041e617deb3a81640cbad9a17d9f777a",
+  "verifier_sha256": "444ebd365a9b7bf93444fc886d8a9b9e49bf282fa8a98855ce95870ed98c8622",
+  "log_sha256": {
+    "build": "56446786b7e913fd89829c5edec51f242ec772ad8f3a3f480912839f872a0e57",
+    "axioms": "e1b865ecf55bca5a244289b9a766b25118216538aa5f23b47648fc90bc24a497",
+    "version": "dff5e8d9150e29e6cd2f9e63bc2fece06649b14c4adf43d7538c4afe1ad9036a"
+  },
+  "scope": "Lean checked the listed formal statements using the pinned mathlib dependency. Paper-to-statement translation and downstream usefulness are separate claims.",
+  "task_usefulness_established": false,
+  "novelty_established": false
+}

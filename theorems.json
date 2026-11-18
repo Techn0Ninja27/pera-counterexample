@@ -1,0 +1,20 @@
+[
+  "PeraVerification.pera_error_sq_lower_bound",
+  "PeraVerification.pera_error_lower_bound",
+  "PeraVerification.optimal_error_lower_bound",
+  "PeraVerification.optimal_error_positive",
+  "PeraVerification.not_zero_optimal_error",
+  "PeraVerification.target_not_representable",
+  "PeraVerification.target_transpose",
+  "PeraVerification.target_mul_self",
+  "PeraVerification.target_rank",
+  "PeraVerification.explicit_pera_witness",
+  "PeraVerification.rank_two_counterexample",
+  "PeraVerification.rank_two_approximation_claim_false",
+  "PeraVerification.fixed_pera_operator_norm_le",
+  "PeraVerification.fixed_pera_operator_norm_lt_one",
+  "PeraVerification.optimal_error_upper_bound",
+  "PeraVerification.certified_error_interval",
+  "PeraVerification.lora_rank_one_error_lower_bound",
+  "PeraVerification.fixed_pera_beats_rank_one_lora"
+]

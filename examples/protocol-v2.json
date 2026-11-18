@@ -1,0 +1,22 @@
+{
+  "schema": "pera-usefulness-check.v2",
+  "date": "2026-11-18",
+  "target": "P = I - 11^T/3 in R^(3x3)",
+  "rank": 1,
+  "pera_parameters_rational": {
+    "a": [[1], [-1], [0]],
+    "b": [["1/2"], ["-1/2"], [0]],
+    "h": "2"
+  },
+  "lora_rank_two_factorization": {
+    "B": [[1, 0], [0, 1], [-1, -1]],
+    "A": [["2/3", "-1/3", "-1/3"], ["-1/3", "2/3", "-1/3"]]
+  },
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.15.0",
+    "dtype": "float64",
+    "device": "cpu"
+  },
+  "scope": "Exact rational construction plus numerical spectral-norm check. No optimizer search, transformer task, or usefulness claim."
+}

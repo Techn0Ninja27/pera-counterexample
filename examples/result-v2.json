@@ -1,0 +1,93 @@
+{
+  "schema": "pera-usefulness-check-result.v2",
+  "status": "completed",
+  "protocol_sha256": "a699ec98eedb43cd3da048a7a407af17c02de808e7857b17455435f591731e6d",
+  "runner_sha256": "7e5da64105962b955b215469e58a6dc6c5f798acc28cb0e3213cb332c9184f1f",
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.15.0",
+    "dtype": "float64",
+    "device": "cpu"
+  },
+  "exact": {
+    "target": [
+      [
+        "2/3",
+        "-1/3",
+        "-1/3"
+      ],
+      [
+        "-1/3",
+        "2/3",
+        "-1/3"
+      ],
+      [
+        "-1/3",
+        "-1/3",
+        "2/3"
+      ]
+    ],
+    "pera_rank_1": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "lora_rank_2": [
+      [
+        "2/3",
+        "-1/3",
+        "-1/3"
+      ],
+      [
+        "-1/3",
+        "2/3",
+        "-1/3"
+      ],
+      [
+        "-1/3",
+        "-1/3",
+        "2/3"
+      ]
+    ]
+  },
+  "spectral_errors": {
+    "lora_rank_1": 1.0,
+    "pera_rank_1": 0.8164965809277263,
+    "lora_rank_2": 0.0
+  },
+  "parameter_counts": {
+    "lora_rank_1": 6,
+    "pera_rank_1": 7,
+    "lora_rank_2": 12
+  },
+  "proven_lower_bound": 0.5773502691896258,
+  "checks": {
+    "pera_exact_rational_diag": true,
+    "target_exact_projector": true,
+    "rank_two_lora_exact_rational": true,
+    "parameter_count_derived": true,
+    "lora_rank_one_error_one": true,
+    "pera_error_sqrt_two_thirds": true,
+    "lora_rank_two_error_zero": true
+  },
+  "limitations": [
+    "One hand-constructed 3x3 target.",
+    "No optimizer or transformer task benchmark.",
+    "PERA optimum is bounded between 1/sqrt(3) and sqrt(2/3); this construction is not claimed optimal.",
+    "Counts cover factor and coefficient tensors only."
+  ],
+  "novelty_established": false,
+  "task_usefulness_established": false
+}

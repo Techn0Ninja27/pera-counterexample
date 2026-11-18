@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-18",
+  "origin_repository": "https://github.com/Techn0Ninja27/mechanism-lab",
+  "origin_commit": "228d5aab32b94fed2a1bb08a21a66405a55b4aeb",
+  "verified_proof_origin_commit": "e6125df573b337559257e61038e402ccb3c6b605",
+  "scope": "Standalone export of the PERA correction, unchanged Lean proof sources, author-review drafts and numerical companion. No third-party paper PDFs or author implementation code included."
+}
